@@ -6,7 +6,7 @@ services:
     volumes:
       - ./Restapi:/usr/src/app
     ports:
-      - 5001:5001
+      - "5003:5003"
   
 
   website:
@@ -14,4 +14,4 @@ services:
     volumes:
       - ./Web:/usr/src/app
     ports:
-      - 5000:5000
+      - "5001:5001"
